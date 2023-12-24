@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-color-bg {
+  background-color: #01172e;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #01172e;
+  color: #fff;
+  padding-top: 20px;
+  position: fixed;
+  margin-top: 70px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #00a9ff;
+}
+
+.content {
+  margin-left: 200px;
+  flex: 1;
+}
