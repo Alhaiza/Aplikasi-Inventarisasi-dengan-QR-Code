@@ -15,7 +15,6 @@ Proyek ini dikembangkan selama Kerja Praktik untuk memudahkan manajemen inventar
 
 - Identifikasi menggunakan QR Code.
 - Manajemen inventaris dengan antarmuka pengguna yang ramah.
-- Riwayat perubahan inventaris.
 
 ## Instalasi
 
