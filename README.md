@@ -6,10 +6,6 @@ Aplikasi Inventarisasi Lab Komputer dan Pemrograman Informatika Universitas Tanj
 
 Proyek ini dikembangkan selama Kerja Praktik untuk memudahkan manajemen inventaris di Lab Komputer. Aplikasi ini memanfaatkan QR Code untuk identifikasi dan pelacakan inventaris.
 
-## Versi Aplikasi
-
-Versi saat ini : 0.1
-
 ## Teknologi yang Digunakan
 
 - Frontend: Bootstrap v5
