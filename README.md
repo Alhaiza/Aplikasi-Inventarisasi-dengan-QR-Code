@@ -1,5 +1,25 @@
-Aplikasi ini dibuat dan dikembangkan guna menyelesaikan Mata Kuliah "Kerja Praktik" Program Studi Informatika Universitas Tanjungpura
+# Inventarisasi Lab Komputer
 
-Judul Kerja Praktik : APLIKASI INVENTARISASI LAB KOMPUTER DAN PEMROGRAMAN INFORMATIKA UNTAN DENGAN TEKNOLOGI QR CODE
+Aplikasi Inventarisasi Lab Komputer untuk Pemrograman Informatika Universitas Tanjungpura menggunakan Teknologi QR Code.
 
-Aplikasi ini dikembangkan menggunakan HTML, CSS, PHP, Bootstrap versi 5 dan Library mPDF dari PHP
+## Deskripsi Proyek
+
+Proyek ini dikembangkan selama Kerja Praktik untuk memudahkan manajemen inventaris di Lab Komputer. Aplikasi ini memanfaatkan QR Code untuk identifikasi dan pelacakan inventaris.
+
+## Teknologi yang Digunakan
+
+- Frontend: Bootstrap v5
+- Backend: PHP Native
+
+## Fitur Utama
+
+- Identifikasi menggunakan QR Code.
+- Manajemen inventaris dengan antarmuka pengguna yang ramah.
+- Riwayat perubahan inventaris.
+
+## Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/namauser/repository.git
+   cd repository
