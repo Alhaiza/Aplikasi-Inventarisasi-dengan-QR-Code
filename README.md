@@ -1,4 +1,4 @@
-# Inventarisasi Lab Komputer
+# Aplikasi Inventarisasi Lab Komputer dan Pemrograman UNTAN dengan Teknologi QR Code
 
 Aplikasi Inventarisasi Lab Komputer dan Pemrograman Informatika Universitas Tanjungpura menggunakan Teknologi QR Code.
 
