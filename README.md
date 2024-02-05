@@ -1,6 +1,6 @@
 # Inventarisasi Lab Komputer
 
-Aplikasi Inventarisasi Lab Komputer untuk Pemrograman Informatika Universitas Tanjungpura menggunakan Teknologi QR Code.
+Aplikasi Inventarisasi Lab Komputer dan Pemrograman Informatika Universitas Tanjungpura menggunakan Teknologi QR Code.
 
 ## Deskripsi Proyek
 
