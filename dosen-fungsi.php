@@ -5,7 +5,7 @@
 //     header("Location: login.php");
 //     exit;
 // }
-$conn = mysqli_connect("localhost_name_here", "username_here", "password_here", "database_name_here");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 
 // Function Query Database ke web
 function query($query)
@@ -27,14 +27,14 @@ function tambah($data)
 
     $nip = htmlspecialchars($data["nip_dosen"]);
     $nama = htmlspecialchars($data["nama_dosen"]);
-    $telpon = htmlspecialchars($data["telpon_dosen"]);
+
 
 
 
     // query insert data
-    $query = "INSERT INTO dosen (nip_dosen, nama_dosen, telpon_dosen)
+    $query = "INSERT INTO dosen (nip_dosen, nama_dosen)
                 VALUES
-                ('$nip', '$nama', '$telpon')
+                ('$nip', '$nama')
     
     ";
     mysqli_query($conn, $query);
@@ -58,8 +58,7 @@ function ubah($data)
     if (isset($_POST['ubah'])) {
         $query = mysqli_query($conn, "UPDATE dosen SET
                         nip_dosen = '$_POST[nip_dosen]',
-                        nama_dosen = '$_POST[nama_dosen]',
-                        telpon_dosen = '$_POST[telpon_dosen]'
+                        nama_dosen = '$_POST[nama_dosen]'
                     WHERE id_dosen = '$_POST[id_dosen]'
         ");
 

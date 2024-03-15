@@ -7,7 +7,7 @@ if (!isset($_SESSION["login"])) {
 include "phpqrcode/qrlib.php";
 require "qr-fungsi.php";
 // ambil data dari tabel dosen
-$conn = mysqli_connect("localhost", "root", "root", "db_tugas_kp");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 $barang = mysqli_query($conn, "SELECT * FROM barang INNER JOIN Kategori ON Barang.id_kategori = Kategori.id_kategori
 INNER JOIN MataKuliah ON Barang.id_matakuliah = MataKuliah.id_matakuliah");
 ?>

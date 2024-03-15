@@ -4,7 +4,7 @@
 //     header("Location: login.php");
 //     exit;
 // }
-$conn = mysqli_connect("localhost_name_here", "username_here", "password_here", "database_name_here");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 
 // Function Query Database ke web
 function query($query)
@@ -28,9 +28,9 @@ function tambah($data)
 
 
     // query insert data
-    $query = "INSERT INTO kategori
+    $query = "INSERT INTO kategori (nama_kategori)
                 VALUES
-                ('', '$nama')
+                ('$nama')
     
     ";
     mysqli_query($conn, $query);

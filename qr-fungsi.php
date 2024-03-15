@@ -4,7 +4,7 @@
 //     header("Location: login.php");
 //     exit;
 // }
-$conn = mysqli_connect("localhost_name_here", "username_here", "password_here", "database_name_here");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 // Function Query Database ke web
 function query($query)
 {

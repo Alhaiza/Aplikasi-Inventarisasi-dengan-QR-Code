@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 include "phpqrcode/qrlib.php";
 require "qr-fungsi.php";
 // ambil data dari tabel dosen
-$conn = mysqli_connect("localhost_name_here", "username_here", "password_here", "database_name_here");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 $barang = mysqli_query($conn, "SELECT * FROM barang INNER JOIN Kategori ON Barang.id_kategori = Kategori.id_kategori
 INNER JOIN MataKuliah ON Barang.id_matakuliah = MataKuliah.id_matakuliah");
 

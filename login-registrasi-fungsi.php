@@ -4,7 +4,7 @@
 //     header("Location: login.php");
 //     exit;
 // }
-$conn = mysqli_connect("localhost_name_here", "username_here", "password_here", "database_name_here");
+$conn = mysqli_connect("localhost", "root", "root", "project_college_inventory");
 function register($data)
 {
     global $conn;
@@ -38,9 +38,9 @@ function register($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     // tambahkan user baru ke database
-    mysqli_query($conn, "INSERT INTO users
+    mysqli_query($conn, "INSERT INTO users (username, full_name, password)
 VALUES
-('', '$username', '$full_name', '$password')
+('$username', '$full_name', '$password')
 ");
     return mysqli_affected_rows($conn);
     header("Location: login.php");

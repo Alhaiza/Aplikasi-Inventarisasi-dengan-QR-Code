@@ -126,10 +126,7 @@ if (isset($_POST["ubah"])) {
                       <label for="nama" class="form-label">Nama Dosen</label>
                       <input type="text" class="form-control" id="nama" name="nama_dosen" autocomplete="off">
                     </div>
-                    <div class="mb-3">
-                      <label for="telpon_dosen" class="form-label">Nomor Telpon</label>
-                      <input type="text" class="form-control" id="telpon_dosen" name="telpon_dosen" autocomplete="off">
-                    </div>
+
                 </div>
                 <div class="modal-footer">
                   <button type="submit" class="col-12 btn btn-info text-white" name="submit">Tambah Data</button>
@@ -147,7 +144,7 @@ if (isset($_POST["ubah"])) {
                 <th scope="col">No</th>
                 <th scope="col">NIP</th>
                 <th scope="col">Nama Dosen</th>
-                <th scope="col">Nomor Telpon</th>
+
                 <th scope="col">Aksi</th>
               </tr>
             </thead>
@@ -158,7 +155,7 @@ if (isset($_POST["ubah"])) {
                   <td><?= $i ?></td>
                   <td><?= $row["nip_dosen"] ?></td>
                   <td><?= $row["nama_dosen"] ?></td>
-                  <td><?= $row["telpon_dosen"] ?></td>
+
                   <td class="py-3">
                     <!-- Button Edit modal -->
                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#edit<?= $row["id_dosen"] ?>">
@@ -184,10 +181,7 @@ if (isset($_POST["ubah"])) {
                                 <label for="nama" class="form-label">Nama Dosen</label>
                                 <input type="text" class="form-control" id="nama" name="nama_dosen" value="<?= $row["nama_dosen"] ?>">
                               </div>
-                              <div class="mb-3">
-                                <label for="telpon_dosen" class="form-label">Nomor Telpon</label>
-                                <input type="text" class="form-control" id="telpon_dosen" name="telpon_dosen" autocomplete="off" value="<?= $row["telpon_dosen"] ?>">
-                              </div>
+
                               <div class="modal-footer">
                                 <button type="submit" class="col-12 btn btn-warning text-white" name="ubah">Ubah Data</button>
                               </div>
